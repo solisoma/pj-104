@@ -15,7 +15,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:3002',
-      'https://nobleassetmarkets.com',
+      'https://nobleelitetrade.com',
       'https://quantureinc.netlify.app',
     ],
     credentials: true,
