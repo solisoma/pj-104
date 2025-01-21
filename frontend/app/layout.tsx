@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nobleassetsmarket",
+  title: "noble elite trade",
   description:
     "Empowering your trading journey to achieve financial success and guiding you with the tools and support to trade smarter and succeed financially.",
 };

@@ -259,7 +259,7 @@ export const investmentPlans = [
 
 export const traders = [
   {
-    TraderDetails: "4356712 | Young bull investor",
+    TraderDetails: "4356712 | Elite FX Trades",
     ROI: "10%",
     Accuracy: "97%",
     TotalProfit: "108,900",
@@ -269,7 +269,7 @@ export const traders = [
     StandaloneNumber: "4356712",
   },
   {
-    TraderDetails: "9694814 | Sean Trades",
+    TraderDetails: "9694814 | Viper FX",
     ROI: "11%",
     Accuracy: "98%",
     TotalProfit: "10,895,785",
@@ -279,7 +279,7 @@ export const traders = [
     StandaloneNumber: "9694814",
   },
   {
-    TraderDetails: "3182915 | Sniper Trades",
+    TraderDetails: "3182915 | OptionX",
     ROI: "8%",
     Accuracy: "95%",
     TotalProfit: "458,608",
@@ -289,7 +289,7 @@ export const traders = [
     StandaloneNumber: "3182915",
   },
   {
-    TraderDetails: "4447716 | Mamba FX",
+    TraderDetails: "4447716 | Rapid Options",
     ROI: "10%",
     Accuracy: "97%",
     TotalProfit: "506,078",
@@ -299,7 +299,7 @@ export const traders = [
     StandaloneNumber: "4447716",
   },
   {
-    TraderDetails: "7491017 | Panda Options",
+    TraderDetails: "7491017 | Prime Pip FX",
     ROI: "9%",
     Accuracy: "99%",
     TotalProfit: "458,769",

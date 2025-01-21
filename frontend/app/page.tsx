@@ -70,9 +70,7 @@ export default function Home() {
             <div className="absolute left-0 top-0 w-full h-full bg-black bg-opacity-60">
               <div className="flex items-end h-[90%] px-2 w-full md:h-[78%] md:px-8">
                 <div className="flex flex-col w-full gap-2 md:w-[40%]">
-                  <h2 className="font-bold text-4xl">
-                    Growing Profits Together
-                  </h2>
+                  <h2 className="font-bold text-4xl">Driving Profitability</h2>
                   <p className="font-base text-[#7B8EA4] text-xl">
                     Empowering Your Trading Journey to Achieve Financial Success
                     Guiding you with the tools and support to trade smarter and
