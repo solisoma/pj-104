@@ -25,7 +25,7 @@ export default function LiveTrading() {
               Live Trading Interface
             </h2>
             <p className="text-xl text-[#7B8EA4]">
-              Cinpax Trade trading platform is a software system offered to
+              Noble Elite Trade trading platform is a software system offered to
               investors and traders by certain financial institutions, such as
               brokerages and banks. Essentially, trading platforms enable
               investors and traders to place trades and monitor their accounts.
