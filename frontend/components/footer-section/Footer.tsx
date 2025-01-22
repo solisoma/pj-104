@@ -30,8 +30,7 @@ export default function Footer() {
             <InfoFooter info="+1 (580) 760-7297" desc="Address" />
           </div>
           <div>
-            <p>203 Pall Mall, St. James’s London SW1Y 5NQ, United Kingdom</p>
-            <p>203 Pall Mall, St. James’s London SW1Y 5NQ, United Kingdom</p>
+            <p>1322 Madison Ave #12 Woodward, Oklahoma(OK), 73801</p>
           </div>
         </div>
         <div>
