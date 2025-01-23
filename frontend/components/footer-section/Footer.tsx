@@ -25,8 +25,8 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <img src="/full-icon.png" className="w-[15rem]" />
           <div className="flex flex-col gap-2">
-            <InfoFooter info="©2023 Noble" desc="Email" />
-            <InfoFooter info="Mail support@Noble.com" desc="Phone" />
+            <InfoFooter info="©2023 Noble Elite" desc="Email" />
+            <InfoFooter info="Mail Nobleelitetrade@gmail.com" desc="Phone" />
             <InfoFooter info="+1 (580) 760-7297" desc="Address" />
           </div>
           <div>
