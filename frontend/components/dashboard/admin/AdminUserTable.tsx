@@ -130,7 +130,7 @@ export const AdminUserTable = ({
           </p>
         </div>
 
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 pb-6">
           <div className="flex flex-col gap-4 bg-[#0F0F0F] rounded-lg px-3 py-8 md:flex-row md:flex-wrap">
             <div className="w-full lg:w-[48%]">
               <InfoBox
@@ -200,7 +200,7 @@ export const AdminUserTable = ({
             </div>
           </div>
 
-          <div className="w-full overflow-x-scroll remove-scrollbar live-trade-table border border-[#292B37] rounded-lg py-10">
+          <div className="w-full overflow-x-scroll remove-scrollbar live-trade-table border border-[#292B37] rounded-lg">
             <table className="min-w-full border-collapse">
               <thead className="rounded-lg">
                 <tr className="text-[1rem] bg-[#292B37]">
