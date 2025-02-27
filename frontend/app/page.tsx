@@ -89,7 +89,7 @@ export default function Home() {
               desc="Trading will bring you profit with proper support, constant education, and a reasonable approach. Noble is a broker platform that has created all the conditions to help you improve your trading life in every possible way.<br/><br/>From educational broker's tools, demo accounts, and 24/7 support to your financial success, Noble works tirelessly to remain at the forefront in trading online. Join now! Take full advantage of this online trading leader and make your way into the world of professional trading."
             />
           </div>
-          <div className="flex flex-col gap-4 lg:justify-between lg:flex-row">
+          <div className="flex flex-col gap-4 lg:justify-between lg:flex-row md:gap-[1vw]">
             <div className="flex-1 h-full">
               <BoxOne
                 bg="bg-[url('/world-img.webp')] bg-cover"
@@ -98,9 +98,9 @@ export default function Home() {
                 desc="We support all, so traders from all over the world could enjoy and profit anytime"
               />
             </div>
-            <div className="flex-1 flex flex-wrap gap-4 items-stretch">
+            <div className="flex-1 flex flex-wrap gap-4 items-stretch md:gap-[1vw]">
               {boxOneDeet.map((item, i) => (
-                <div key={i} className="w-full lg:w-[18rem]">
+                <div key={i} className="w-full lg:w-[48%]">
                   <BoxOne
                     Icon={item.Icon}
                     heading={item.heading}

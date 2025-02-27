@@ -25,7 +25,7 @@ export default function CopyTrade({
         <div className="text-center">
           <h2 className="font-bold text-3xl">TOP TRADE MASTERS</h2>
         </div>
-        <div className="flex flex-col gap-4 md:flex-wrap md:flex-row">
+        <div className="flex flex-col gap-4 md:flex-wrap md:flex-row md:gap-[1vw]">
           {traders.map((itm, i) => (
             <div key={i} className="w-full md:w-[49%]">
               <CopyBox
