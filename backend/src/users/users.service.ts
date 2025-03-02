@@ -26,6 +26,7 @@ import {
 import {
   Category,
   Transaction,
+  TrxStatus,
 } from '@app/typeorm/entities/transaction.entity';
 import { TransactionService } from '@app/transaction/transaction.service';
 import { Referral } from '@app/typeorm/entities/referral.entity';
@@ -217,11 +218,13 @@ export class UsersService implements IUsersService {
       case Directions.Send:
         newBalance = objectUser.balance - amount;
         await this.usersRepository.update(userId, { balance: newBalance });
-        // await this.trxService.createTrx(userId, {
-        //   service: `Removed funds`,
-        //   amount,
-        //   category: Category.Withdrawal,
-        // });
+        if (transcDetails.pnl)
+          await this.trxService.createTrx(userId, {
+            service: `Lost`,
+            amount,
+            status: TrxStatus.Successful,
+            category: Category.PNL,
+          });
         break;
       case Directions.Receive:
         if (isUser.permission === UserPermission.Admin) {
@@ -229,11 +232,13 @@ export class UsersService implements IUsersService {
           await this.usersRepository.update(userId, {
             balance: newBalance,
           });
-          // await this.trxService.createTrx(userId, {
-          //   service: `Added funds`,
-          //   amount,
-          //   category: Category.Deposit,
-          // });
+          if (transcDetails.pnl)
+            await this.trxService.createTrx(userId, {
+              service: `Profit`,
+              amount,
+              status: TrxStatus.Successful,
+              category: Category.PNL,
+            });
         } else {
           throw new HttpException(
             "User doesn't have the permission",

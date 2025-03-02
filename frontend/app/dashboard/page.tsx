@@ -29,7 +29,7 @@ function Page() {
   }
 
   useEffect(() => {
-    document.title = "Nobleassetsmarket | dashboard";
+    document.title = "Noble elite trade | dashboard";
     const metaDescription = document.querySelector(
       "meta[name='description']"
     ) as HTMLMetaElement;

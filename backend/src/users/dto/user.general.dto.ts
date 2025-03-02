@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import {
+  IsBoolean,
   IsEnum,
   IsNotEmpty,
   IsNumber,
@@ -46,6 +47,10 @@ export class transcDetailsDto {
   @IsNumber()
   @IsNotEmpty()
   amount: number;
+
+  @IsBoolean()
+  @IsNotEmpty()
+  pnl: boolean;
 
   @IsEnum(Directions)
   @IsNotEmpty()

@@ -92,6 +92,7 @@ export const AdminUserTable = ({
       const modify = await update_balance({
         amount: values.amount,
         userId: m_user!.id,
+        pnl: values.isPnL,
         direction,
       });
       if (!modify) throw new Error();
