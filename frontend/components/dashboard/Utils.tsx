@@ -203,6 +203,7 @@ export default function UpdateBalance({
   const initialValue = {
     amount: 0,
     isAdd: true,
+    isPnL: false,
   };
 
   return (
