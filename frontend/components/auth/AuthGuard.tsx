@@ -35,7 +35,7 @@ function AuthGuard({ children }: AuthGuardType) {
           try {
             await refreshToken();
           } catch {
-            await log_out();
+            // await log_out();
             await clearSecureStorage();
             localStorage.setItem("path", path);
             router.push("/account/sign-in?q=f");
